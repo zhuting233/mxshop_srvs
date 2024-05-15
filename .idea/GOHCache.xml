@@ -3,6 +3,14 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
+        <entry key="AliSmsConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go" />
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="BaseModel">
           <value>
             <set>
@@ -20,6 +28,8 @@
         <entry key="ConsulConfig">
           <value>
             <set>
+              <option value="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go" />
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
               <option value="file://$PROJECT_DIR$/usr_srv/config/config.go" />
             </set>
           </value>
@@ -38,6 +48,14 @@
             </set>
           </value>
         </entry>
+        <entry key="JWTConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go" />
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="MobileRequest">
           <value>
             <set>
@@ -48,6 +66,14 @@
         <entry key="MysqlConfig">
           <value>
             <set>
+              <option value="file://$PROJECT_DIR$/usr_srv/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NacosConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
               <option value="file://$PROJECT_DIR$/usr_srv/config/config.go" />
             </set>
           </value>
@@ -66,9 +92,19 @@
             </set>
           </value>
         </entry>
+        <entry key="RedisConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go" />
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="ServerConfig">
           <value>
             <set>
+              <option value="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go" />
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
               <option value="file://$PROJECT_DIR$/usr_srv/config/config.go" />
             </set>
           </value>
@@ -115,6 +151,14 @@
             </set>
           </value>
         </entry>
+        <entry key="UserSrvConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go" />
+              <option value="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="userClient">
           <value>
             <set>
@@ -140,17 +184,66 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/../HelloWorld/nacos/config/UserSrvConfig.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1715789322275" />
+              <option name="schema">
+                <list>
+                  <option value="UserSrvConfig" />
+                  <option value="JWTConfig" />
+                  <option value="AliSmsConfig" />
+                  <option value="ConsulConfig" />
+                  <option value="RedisConfig" />
+                  <option value="ServerConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../HelloWorld/nacos/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1715789223130" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../mxshop-api/user-web/config/UserSrvConfig.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1715790032937" />
+              <option name="schema">
+                <list>
+                  <option value="UserSrvConfig" />
+                  <option value="JWTConfig" />
+                  <option value="AliSmsConfig" />
+                  <option value="ConsulConfig" />
+                  <option value="RedisConfig" />
+                  <option value="ServerConfig" />
+                  <option value="NacosConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../mxshop-api/user-web/global/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1715790087972" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/../mxshop-api/user-web/initialize/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1715762838667" />
+              <option name="lastModified" value="1715790915846" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/../mxshop-api/user-web/initialize/srv_conn.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1715778000739" />
+              <option name="lastModified" value="1715791461240" />
             </ScannedPath>
           </value>
         </entry>
@@ -164,12 +257,13 @@
         <entry key="file://$PROJECT_DIR$/usr_srv/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1715683211007" />
+              <option name="lastModified" value="1715791908619" />
               <option name="schema">
                 <list>
                   <option value="MysqlConfig" />
                   <option value="ConsulConfig" />
                   <option value="ServerConfig" />
+                  <option value="NacosConfig" />
                 </list>
               </option>
             </ScannedPath>
@@ -178,7 +272,7 @@
         <entry key="file://$PROJECT_DIR$/usr_srv/global/global.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1715676368908" />
+              <option name="lastModified" value="1715792043907" />
             </ScannedPath>
           </value>
         </entry>
@@ -197,7 +291,7 @@
         <entry key="file://$PROJECT_DIR$/usr_srv/initialize/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1715677173511" />
+              <option name="lastModified" value="1715792136019" />
             </ScannedPath>
           </value>
         </entry>
@@ -287,15 +381,19 @@
     </option>
     <option name="tableStructMapping">
       <map>
+        <entry key="ali_sms_config" value="AliSmsConfig" />
         <entry key="base_model" value="BaseModel" />
         <entry key="check_response" value="CheckResponse" />
         <entry key="consul_config" value="ConsulConfig" />
         <entry key="create_user_info" value="CreateUserInfo" />
         <entry key="id_request" value="IdRequest" />
+        <entry key="jwt_config" value="JWTConfig" />
         <entry key="mobile_request" value="MobileRequest" />
         <entry key="mysql_config" value="MysqlConfig" />
+        <entry key="nacos_config" value="NacosConfig" />
         <entry key="page_info" value="PageInfo" />
         <entry key="password_check_info" value="PasswordCheckInfo" />
+        <entry key="redis_config" value="RedisConfig" />
         <entry key="server_config" value="ServerConfig" />
         <entry key="unimplemented_user_server" value="UnimplementedUserServer" />
         <entry key="update_user_info" value="UpdateUserInfo" />
@@ -304,6 +402,7 @@
         <entry key="user_info_response" value="UserInfoResponse" />
         <entry key="user_list_response" value="UserListResponse" />
         <entry key="user_server" value="UserServer" />
+        <entry key="user_srv_config" value="UserSrvConfig" />
         <entry key="x" value="x" />
       </map>
     </option>
